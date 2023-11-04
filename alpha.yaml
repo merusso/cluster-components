@@ -40,6 +40,9 @@ spec:
   values:
     h2c:
       enabled: true
+  dependsOn:
+    - name: bravo
+    - name: charlie
   postRenderers:
     - kustomize:
         # This doesn't work, `labels` isn't yet supported

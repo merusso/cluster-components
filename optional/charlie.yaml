@@ -37,9 +37,6 @@ spec:
         name: charlie
       version: '6.5.1'
   interval: 10m0s
-  dependsOn:
-    - name: alpha
-    - name: bravo
   values:
     h2c:
       enabled: true
